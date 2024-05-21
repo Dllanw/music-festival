@@ -1,9 +1,11 @@
-@use 'variables' as *;
+@use './base/variables' as *;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
   font-family: $font-main;
   font-optical-sizing: auto;
   font-style: normal;
+
+  color: $black;
 }
 
